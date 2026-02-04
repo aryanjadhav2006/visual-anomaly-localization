@@ -92,16 +92,15 @@ http://127.0.0.1:8000/docs
 ```
 Open a new terminal:
 ```
+```
 cd frontend
 npm install
 npm run dev
-```
+
 ```
 Frontend runs at:
 ```
 http://localhost:5173
-
----
 
 ```
 
