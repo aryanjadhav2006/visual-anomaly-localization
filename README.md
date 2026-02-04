@@ -30,17 +30,17 @@ Built with a **U-Net–based deep learning model**, deployed via **FastAPI**, an
 ### Frontend
 - React (Vite)
 - Tailwind CSS
-- HTML5 Canvas (interactive background)
+- HTML5 Canvas
 
 ---
 
 ## 🧪 How It Works
 
 1. User uploads an image
-2. The backend model analyzes **normal vs anomalous patterns**
-3. A segmentation mask highlights suspicious regions
-4. A severity score quantifies anomaly intensity
-5. Results are visualized interactively in the UI
+2. Backend processes the image using a U-Net segmentation model
+3. Pixel-level anomaly mask is generated
+4. Severity score is computed
+5. Results are returned and visualized in the UI
 
 ---
 
@@ -59,14 +59,64 @@ Built with a **U-Net–based deep learning model**, deployed via **FastAPI**, an
 
 ## 🚀 Getting Started
 
-### 1️⃣ Clone the repository
+### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/visual-anomaly-localization.git
+git clone https://github.com/aryanjadhav2006/visual-anomaly-localization.git
 cd visual-anomaly-localization
-## 📚 Documentation
 
-- [Model Architecture](docs/MODEL.md)
-- [API Specification](docs/API.md)
-- [Explainability](docs/EXPLAINABILITY.md)
-- [Deployment Guide](docs/DEPLOYMENT.md)
+### 2️⃣ Backend Setup
+
+```bash
+cd backend/app
+python3 -m venv venv
+source venv/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt
+uvicorn main:app --reload
+
+Backend runs at:
+
+http://127.0.0.1:8000
+
+
+API documentation:
+
+http://127.0.0.1:8000/docs
+
+### 3️⃣ Frontend Setup
+
+Open a new terminal:
+
+cd frontend
+npm install
+npm run dev
+
+
+Frontend runs at:
+
+http://localhost:5173
+
+---
+
+### ▶️ How to Use the Application
+
+1 Open the frontend in your browser
+
+2 Upload an image
+
+3 Click Detect Anomaly
+
+4 View:
+
+    * Anomaly segmentation mask
+
+    *  Severity score
+
+    *  Decision label
+
+5 Adjust mask opacity for explainability
+
+6 Use Reset to analyze another image
+
+7 Click ? to open the user guide
