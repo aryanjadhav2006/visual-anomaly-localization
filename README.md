@@ -90,11 +90,11 @@ http://127.0.0.1:8000/docs
 ### 3️⃣ Frontend Setup
 ```
 Open a new terminal:
-
+```
 cd frontend
 npm install
 npm run dev
-
+```
 ```
 Frontend runs at:
 ```
