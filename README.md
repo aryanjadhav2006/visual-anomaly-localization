@@ -64,7 +64,7 @@ Built with a **U-Net–based deep learning model**, deployed via **FastAPI**, an
 ```bash
 git clone https://github.com/aryanjadhav2006/visual-anomaly-localization.git
 cd visual-anomaly-localization
-
+---
 ### 2️⃣ Backend Setup
 
 ```bash
