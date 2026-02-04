@@ -64,7 +64,8 @@ Built with a **U-Net–based deep learning model**, deployed via **FastAPI**, an
 ```bash
 git clone https://github.com/aryanjadhav2006/visual-anomaly-localization.git
 cd visual-anomaly-localization
----
+
+```
 ### 2️⃣ Backend Setup
 
 ```bash
@@ -84,6 +85,7 @@ API documentation:
 
 http://127.0.0.1:8000/docs
 
+```
 ### 3️⃣ Frontend Setup
 
 Open a new terminal:
@@ -98,6 +100,8 @@ Frontend runs at:
 http://localhost:5173
 
 ---
+
+```
 
 ### ▶️ How to Use the Application
 
