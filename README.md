@@ -76,18 +76,19 @@ pip install --upgrade pip
 pip install -r requirements.txt
 uvicorn main:app --reload
 ```
+```
 Backend runs at:
-
+```
 http://127.0.0.1:8000
 
 ```
 API documentation:
-
+```
 http://127.0.0.1:8000/docs
 
 ```
 ### 3️⃣ Frontend Setup
-
+```
 Open a new terminal:
 
 cd frontend
@@ -96,7 +97,7 @@ npm run dev
 
 ```
 Frontend runs at:
-
+```
 http://localhost:5173
 
 ---
