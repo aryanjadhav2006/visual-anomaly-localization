@@ -87,7 +87,7 @@ API documentation:
 http://127.0.0.1:8000/docs
 
 ```
-### 3️⃣ Frontend Setup
+3️⃣ Frontend Setup
 ```
 Open a new terminal:
 ```
