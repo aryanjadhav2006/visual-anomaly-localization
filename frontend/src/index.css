@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-black text-white;
+}
+body {
+  margin: 0;
+  background: radial-gradient(
+    circle at var(--x, 50%) var(--y, 50%),
+    #111 0%,
+    #000 65%
+  );
+  transition: background 0.1s;
+}
+body {
+  margin: 0;
+  background: black;
+  overflow: hidden;
+}
